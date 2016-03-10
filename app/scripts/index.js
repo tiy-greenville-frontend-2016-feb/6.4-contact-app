@@ -5,5 +5,5 @@ var router = require('./router');
 
 
 $(function(){
-  Backbone.history.start({pushState: true});
+  Backbone.history.start();
 });
